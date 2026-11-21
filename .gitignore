@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Terraform
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.*
+terraform/*.tfplan
+terraform/crash.log
+terraform/.terraform.lock.hcl
+
+# Secrets
+.env
+*.pem
+*.key
+.aws/
+
+# Local files
+.DS_Store
